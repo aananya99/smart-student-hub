@@ -1,27 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Student Hub</title>
+
     <!-- css -->
-     <link rel="stylesheet" href="./styles/style.css">
-     <!-- tailwind css -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    <!-- navbar -->
-    
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
     <!-- banner -->
-     <div class="parent_div max-w-7xl mx-auto h-[600px]">
-<div class="left_div border-2 border-red-600 h-[600px]">
-<h2>Level Up Your <br>Study Game</h2>
-<p></p>
-</div>
-<div class="right_div border-2 border-green-500 h-[600px]">
+    <div class="parent_div max-w-7xl mx-auto mt-[100px]">
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <div class="left_div md:w-1/2">
+          <h2 class="text-6xl font-bold">Start <br />Learning <br />Today</h2>
+          <p class="text-gray-500 mt-5">
+            Explore beginner-friendly courses and build real skills at your own
+            pace
+          </p>
+          <button
+            class="bg-[#2FA084] w-[150px] p-2 rounded-lg mt-2 font-semibold text-white"
+          >
+            Find Courses <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
 
-</div>
-     </div>
+        <div class="right_div md:w-1/2">
+          <img src="./images/group.jpg" alt="" class="w-[600px] my-10" />
+        </div>
+      </div>
 
-</body>
+      <!-- grid -->
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-4 p-4 bg-gradient-to-r from-[#1F6F5F] to-[#6FCF97]"
+      >
+        <div class="flex gap-2 items-center text-white">
+          <i class="fa-solid fa-book-open text-2xl"></i>
+          <div>
+            <p class="text-3xl">1090+</p>
+            <p class="text-gray-200 text-sm">Our Online Courses</p>
+          </div>
+        </div>
+
+        <div class="flex gap-2 items-center text-white">
+          <i class="fa-solid fa-user text-2xl"></i>
+          <div>
+            <p class="text-3xl">120+</p>
+            <p class="text-gray-200 text-sm">Our Instructors</p>
+          </div>
+        </div>
+
+        <div class="flex gap-2 items-center text-white">
+          <i class="fa-solid fa-file text-2xl"></i>
+          <div>
+            <p class="text-3xl">50+</p>
+            <p class="text-gray-200 text-sm">Practice Notes</p>
+          </div>
+        </div>
+
+        <div class="flex gap-2 items-center text-white">
+          <i class="fa-solid fa-users text-2xl"></i>
+          <div>
+            <p class="text-3xl">8000+</p>
+            <p class="text-gray-200 text-sm">Total Students</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- categories -->
+    <div class="max-w-7xl mx-auto mt-[100px] h-[600px]">
+      <div class="flex flex-col items-center">
+        <p
+          class="border-2 border-[#2FA084] bg-[#EEEEEE] rounded-full p-1 text-center w-[100px] mb-5"
+        >
+          Courses
+        </p>
+        <h2 class="text-4xl font-bold">
+          Explore Top <span class="text-[#2FA084]">Courses</span> <br />
+          That Change Yourself
+        </h2>
+      </div>
+      <div class="grid  grid-cols-2 md:grid-cols-4 gap-3 mt-[50px]">
+        <div class="border-2 border-blue-600">
+          <i class="fa-solid fa-code"></i>
+          <h2>HTML Basics</h2>
+          <p>Learn to structure web pages from scratch.</p>
+        </div>
+        <div class="border-2 border-blue-600">
+          <i class="fa-brands fa-css"></i>
+          <h2>CSS</h2>
+          <p>Style beautiful and responsive websites.</p>
+        </div>
+        <div class="border-2 border-blue-600">
+          <i class="fa-brands fa-js"></i>
+          <h2>JavaScript</h2>
+          <p>Make your websites interactive and dynamic.</p>
+        </div>
+        <div class="border-2 border-blue-600">
+          <i class="fa-brands fa-react"></i>
+          <h2>React</h2>
+          <p>Learn to structure web pages from scratch.</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
