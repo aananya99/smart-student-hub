@@ -7,7 +7,21 @@
 
     <!-- css -->
     <link rel="stylesheet" href="./styles/style.css" />
-
+    <!--  -->
+    <!-- <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#2FA084",
+              primaryDark: "#1F6F5F",
+              lightBg: "#EEEEEE",
+              accent: "#6FCF97",
+            },
+          },
+        },
+      };
+    </script> -->
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -78,7 +92,7 @@
       </div>
     </div>
     <!-- categories -->
-    <div class="max-w-7xl mx-auto mt-[100px] h-[600px]">
+    <div class="max-w-7xl mx-auto mt-[100px]">
       <div class="flex flex-col items-center">
         <p
           class="border-2 border-[#2FA084] bg-[#EEEEEE] rounded-full p-1 text-center w-[100px] mb-5"
@@ -86,30 +100,78 @@
           Courses
         </p>
         <h2 class="text-4xl font-bold">
-          Explore Top <span class="text-[#2FA084]">Courses</span> <br />
+          Explore Top Courses<br />
           That Change Yourself
         </h2>
       </div>
-      <div class="grid  grid-cols-2 md:grid-cols-4 gap-3 mt-[50px]">
-        <div class="border-2 border-blue-600">
-          <i class="fa-solid fa-code"></i>
-          <h2>HTML Basics</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-[50px]">
+        <div class="shadow-lg bg-[#EEEEEE] p-4 rounded-lg">
+          <i class="fa-solid fa-code text-3xl text-[#6FCF97]"></i>
+          <h2 class="text-2xl font-bold">HTML Basics</h2>
           <p>Learn to structure web pages from scratch.</p>
         </div>
-        <div class="border-2 border-blue-600">
-          <i class="fa-brands fa-css"></i>
-          <h2>CSS</h2>
+        <div class="shadow-lg bg-[#EEEEEE] p-4 rounded-lg">
+          <i class="fa-brands fa-css text-3xl text-[#6FCF97]"></i>
+          <h2 class="text-2xl font-bold">CSS</h2>
           <p>Style beautiful and responsive websites.</p>
         </div>
-        <div class="border-2 border-blue-600">
-          <i class="fa-brands fa-js"></i>
-          <h2>JavaScript</h2>
+        <div class="shadow-lg bg-[#EEEEEE] p-4 rounded-lg">
+          <i class="fa-brands fa-js text-3xl text-[#6FCF97]"></i>
+          <h2 class="text-2xl font-bold">JavaScript</h2>
           <p>Make your websites interactive and dynamic.</p>
         </div>
-        <div class="border-2 border-blue-600">
-          <i class="fa-brands fa-react"></i>
-          <h2>React</h2>
+        <div class="shadow-lg bg-[#EEEEEE] p-4 rounded-lg">
+          <i class="fa-brands fa-react text-3xl text-[#6FCF97]"></i>
+          <h2 class="text-2xl font-bold">React</h2>
           <p>Learn to structure web pages from scratch.</p>
+        </div>
+      </div>
+    </div>
+    <!-- why choose this -->
+    <div
+      class="parent_div max-w-7xl mx-auto mt-[100px]  flex   items-center bg-[#EEEEEE] rounded-lg  md:p-6"
+    >
+      <div class="left_div w-1/2 ">
+        <img src="./images/female.jpg" alt="" class=" w-full md:w-[500px]" />
+      </div>
+      <div class="right_div w-1/2">
+        <div class="flex flex-col items-center p-1">
+          <p
+            class="border-2 border-[#2FA084] bg-[#EEEEEE] rounded-full text-center w-[100px] mb-5"
+          >
+            Why Choose
+          </p>
+          <h2 class="text-4xl font-bold">Why Choose This Courses</h2>
+        </div>
+        <div class="mt-5 border-2">
+          <div class="p-2">
+            <h2 class="text-xl font-semibold">1.Flexible Classes</h2>
+            <p class="text-gray-700">
+              Learn at your own pace with courses designed to fit your schedule.
+              Access lessons anytime and continue from where you left off.
+            </p>
+          </div>
+          <div class="p-2">
+            <h2 class="text-xl font-semibold">2.Learn From Anywhere</h2>
+            <p class="text-gray-700">
+              Study from any device—mobile, tablet, or desktop. All you need is
+              an internet connection to start learning.
+            </p>
+          </div>
+          <div class="p-2">
+            <h2 class="text-xl font-semibold">3.Beginner-Friendly Content</h2>
+            <p class="text-gray-700">
+              No prior experience needed. Our step-by-step lessons make complex
+              topics easy to understand for everyone.
+            </p>
+          </div>
+          <div class="p-2">
+            <h2 class="text-xl font-semibold">4. Practical & Real Projects</h2>
+            <p class="text-gray-700">
+              Work on real-world projects to build skills that actually matter.
+              Practice while you learn to gain confidence.
+            </p>
+          </div>
         </div>
       </div>
     </div>
