@@ -9,4 +9,4 @@ https://aananya99.github.io/smart-student-hub/
 - Responsive basic structures
 ## 🛠 Technologies Used
 - HTML5
-- CSS
+- Tailwind CSS
